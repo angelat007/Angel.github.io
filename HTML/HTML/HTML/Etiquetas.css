@@ -3,6 +3,11 @@ body {
     text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+
+}
+
 .lista-de-tablas {
     display: flex;
     justify-content: center;
