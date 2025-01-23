@@ -149,4 +149,40 @@ button:hover {
 }
 
 
-    
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .contenedor-con-borde {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header a {
+        margin: 10px;
+    }
+
+    pre {
+        width: 100%;
+        text-align: center;
+    }
+
+    #html, #Historia de HTML, #CSS, #Java {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .contenedor-con-borde {
+        display: flex;
+        justify-content: space-between; 
+    }
+
+    pre {
+        width: auto; 
+    }
+}
